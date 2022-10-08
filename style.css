@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/css?family=Ewert);
+@import url(https://fonts.googleapis.com/css?family=Ultra);
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 98vh;
+    background-image: url(assets/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    color: #291200;
+    font-family: Ultra;
+    display: flex;
+}
+.poster {
+    width: 488px;
+    height: 640px;
+    background-image: url(assets/billyBG.jpg);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    -webkit-box-shadow: 0px 8px 24px -6px rgba(0,0,0,0.68); 
+    box-shadow: 0px 8px 24px -6px rgba(0,0,0,0.68);
+    margin: auto;
+}
+#mugshot {
+    width: 300px;
+    height: 325px;
+    border: #291200 2px solid;
+    margin: 10px;
+    filter: sepia();
+}
+h1 {
+    font-family: Ewert;
+    font-size: 44pt;
+    font-weight: 100;
+    margin: 0;
+}
+h2{
+    font-size: 22pt;
+    font-weight: 100;
+}
+#price {
+    margin: 5px 0 0 0  ;
+    font-size: 24pt;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+}
+.description {
+    font-style: italic;
+    font-weight: 300;
+    margin: 5px;
+}
+.name {
+    font-size: 24pt;
+    margin: 5px;
+}
+.subheading {
+    font-size: 18pt;
+}
